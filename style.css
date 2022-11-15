@@ -1,0 +1,157 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* logo and menu css start */
+nav{
+    background: #252d2f;
+}
+.container{
+    width: 1200px;
+    margin: auto;  
+}
+nav .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav .logo{
+    width: 20%;
+}
+nav .menu{
+    width: 80%;
+    
+}
+nav .menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-end;   
+}
+nav .menu ul li a{
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform:uppercase;
+    padding: 29px 20px;
+    display: inline-block;
+    transition:0.3s;
+}
+nav .menu ul li:hover a{
+    color:#2ecc71;
+}
+/* logo and menu css end */
+
+/* banner css start */
+#banner{
+    background: url(image/banner_bg.jpg);
+    height: 1000px;
+    background-size:cover;
+    background-position:center;
+}
+#banner .container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+#banner .banner_content h1{
+    font-size: 60px;
+    font-weight: 700;
+    color:#fff;
+    text-transform:uppercase;
+    border-top:2px solid#fff;
+    border-bottom:2px solid#fff;
+    padding:20px 0px;
+    margin:50px auto;
+}
+#banner .banner_content a{
+    font-size:18px;
+    color: #fff;
+    text-transform:uppercase;
+    border:2px solid#fff;
+    padding:20px 35px;
+
+
+}
+#about{
+    padding: 100px 0px;
+}
+#about .container{
+    display: flex;
+    flex-wrap: wrap;
+} 
+#about .container div{
+    width: 33.33%;
+    
+}
+#about .container div h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color:#566366;
+    margin-top: 98px;
+    margin-bottom: 48px;
+}
+#about .container div p{
+    font-family:'Roboto' , sans-serif;
+    color:#919191;
+    font-weight: 400;
+    line-height: 2;
+}
+#about_me{
+    background: #f1f1f1;
+}
+#about_me .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.about_me_img{ 
+    background: url(image/about_me_img.jpg);
+    width: 30%;
+    height: 750px;
+    background-size: cover;
+} 
+.about_me_content{
+    width: 70%;
+
+}
+.about_me_content h1{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color:#566366;
+    text-transform: uppercase;
+}
+.about_me_content p{
+    font-family: 'Roboto' , sans-serif;
+    color: #919191;
+    margin: 26px 0px;
+}
+.about_skill{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill_p h2{
+    color: #566366;
+    font-family: 'Roboto',sans-serif;
+
+}
